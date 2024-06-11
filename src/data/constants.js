@@ -129,12 +129,8 @@ export const skills = [
         image:
           "https://banner2.cleanpng.com/20180416/gdq/kisspng-kubernetes-docker-google-cloud-platform-logo-lxc-container-5ad44c5e675a30.2660434915238626224233.jpg",
       },
+      
 
-      {
-        name: "Kubernetes",
-        image:
-          "https://banner2.cleanpng.com/20180416/gdq/kisspng-kubernetes-docker-google-cloud-platform-logo-lxc-container-5ad44c5e675a30.2660434915238626224233.jpg",
-      },
 
       {
         name: "Terraform",
