@@ -11,7 +11,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/MalharKt",
   resume:
-    "https://drive.google.com/file/d/18izgCJpiIjZuKeNn2gYMlRaPzPUOsZYg/view",
+    "https://drive.google.com/file/d/1la6Y7PaAh4gJ28aaHs1MSODZvIqJDa9Z/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/malharkauthale",
   insta: "https://www.instagram.com/malharkauthale/",
   
@@ -94,7 +94,7 @@ export const skills = [
       {
         name: "Linux",
         image:
-          "https://scontent.fpnq13-1.fna.fbcdn.net/v/t39.30808-1/251197125_4905911846088528_3238237683358765754_n.jpg?stp=dst-jpg_p200x200&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=VCxpQcqbBrwQ7kNvgHC6ocB&_nc_ht=scontent.fpnq13-1.fna&oh=00_AYCW6oymVOiWcfPNy8mg8a6Y4bGkx9R4XtNcbTFt2bSVCw&oe=666A16C7",
+          "https://www.svgrepo.com/show/448236/linux.svg",
       },
     ],
   },
@@ -129,6 +129,24 @@ export const skills = [
         image:
           "https://banner2.cleanpng.com/20180416/gdq/kisspng-kubernetes-docker-google-cloud-platform-logo-lxc-container-5ad44c5e675a30.2660434915238626224233.jpg",
       },
+
+      {
+        name: "Jenkins",
+        image:
+          "https://www.svgrepo.com/show/373699/jenkins.svg",
+      },
+
+      {
+        name: "SonarQube",
+        image:
+          "https://logowik.com/content/uploads/images/sonarqube7722.logowik.com.webp",
+      },
+
+      {
+        name: "Trivy",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShfXeJu--djHA3ZqjRHrxFpYeSa9_zyPhZww&s",
+      },
       
 
 
@@ -136,6 +154,22 @@ export const skills = [
         name: "Terraform",
         image:
           "https://www.svgrepo.com/show/376353/terraform.svg",
+      },
+    ],
+  },
+
+  {
+    title: "Monitoring",
+    skills: [
+      {
+        name: "Prometheus",
+        image:
+          "https://www.svgrepo.com/show/354219/prometheus.svg",
+      },
+      {
+        name: "Grafana",
+        image:
+          "https://www.svgrepo.com/show/353829/grafana.svg",
       },
     ],
   },
@@ -148,7 +182,7 @@ export const education = [
     img: "https://images.shiksha.com/mediadata/images/1588139847phpKflTFr.jpg",
     school: "D.Y.Patil Institute of MCA and Management , Akurdi",
     date: "  Nov 2022 - May 2024",
-    grade: "8.32 CGPA",
+    grade: "7.8 CGPA",
     desc: "I am currently pursuing a Master's degree in Computer application at D.Y.Patil Institute of MCA and Management , Akurdi. I have completed 3 semesters and have a CGPA of 8.32. In the academic curriculum i have learn various subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. where I am learning, improving skills and working on exciting projects.",
     degree: "Master of Computer Application",
   },
@@ -184,6 +218,19 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Three-Tier-App-Deployment-On-AWS",
+    date: "Nov 2022 - Mar 2023",
+    description:
+      "Deployed a three-tier application on AWS using Docker, ECR, and Kubernetes. Configured Ingress controllers and load balancers for traffic routing, and mapped a custom domain to ensure seamless accessibility and scalability. ",
+    image:
+      "https://raw.githubusercontent.com/MalharKt/Three-Tier-App/master/Three-Tier-App-Screenshot.png",
+    tags: ["React","Node js","Mongo DB", "AWS", "Docker", "Kubernetes","ECR", "Domain"],
+    category: "web app",
+    github: "https://github.com/MalharKt/Three-Tier-App",
+  },
+
+  {
+    id: 1,
     title: "Turf-Booking-system",
     date: "Nov 2022 - Mar 2023",
     description:
@@ -195,7 +242,7 @@ export const projects = [
     github: "https://github.com/MalharKt/Turf-Booking-System/tree/master/TurfBooking",
   },
   {
-    id: 1,
+    id: 2,
     title: "Car-Parts-Reconnition-System",
     date: "Jun 2023 - Nov 2023",
     description:
@@ -209,4 +256,3 @@ export const projects = [
  
  
 ];
-
