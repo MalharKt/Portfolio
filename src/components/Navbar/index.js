@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
-#import { Bio } from "../../data/constants";
+import { Bio } from "../../data/constants";
 
 /* ---------- styled components ---------- */
 
